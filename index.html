@@ -3,7 +3,8 @@
 
 <head>
   <!-- <script src="https://partnertv-sales.co.il/infinity/jquery-3.5.1.min.js"></script> -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script defer src="./js/jquery.min.js"></script>
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="shortcut icon" href="./images/favicon.ico" />
@@ -267,26 +268,28 @@
   <script defer type="text/javascript" src="./js/utils.js"></script>
   <script defer type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script>
-    jQuery.event.special.touchstart = {
-      setup: function (_, ns, handle) {
-        this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
-      }
-    };
-    jQuery.event.special.touchmove = {
-      setup: function (_, ns, handle) {
-        this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
-      }
-    };
-    jQuery.event.special.wheel = {
-      setup: function (_, ns, handle) {
-        this.addEventListener("wheel", handle, { passive: true });
-      }
-    };
-    jQuery.event.special.mousewheel = {
-      setup: function (_, ns, handle) {
-        this.addEventListener("mousewheel", handle, { passive: true });
-      }
-    };
+    window.addEventListener('load', function (event) {
+      jQuery.event.special.touchstart = {
+        setup: function (_, ns, handle) {
+          this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+        }
+      };
+      jQuery.event.special.touchmove = {
+        setup: function (_, ns, handle) {
+          this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+        }
+      };
+      jQuery.event.special.wheel = {
+        setup: function (_, ns, handle) {
+          this.addEventListener("wheel", handle, { passive: true });
+        }
+      };
+      jQuery.event.special.mousewheel = {
+        setup: function (_, ns, handle) {
+          this.addEventListener("mousewheel", handle, { passive: true });
+        }
+      };
+    });
   </script>
 </body>
 
