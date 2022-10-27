@@ -14,7 +14,6 @@
 }
 
 @mixin inputBasic {
-  font-family: "adoveFnt22";
   color: #ffffff;
   width: 100%;
   font-size: 1.8rem;
@@ -22,7 +21,7 @@
   padding: 1% 0% 1% 3%;
   background: transparent;
   border: none;
-  font-family: simpler-regular;
+  font-family: "simpler-regular", sans-serif;
   border-bottom: 1px solid $color-white;
   /* margin-top: 0.2em; */
   margin-bottom: 2.5rem;

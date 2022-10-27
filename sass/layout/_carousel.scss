@@ -123,7 +123,8 @@
 }
 
 .pack .slickArea .slideWrap {
-    font-family: Arial;
+    font-family: "simpler",
+        sans-serif;
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -234,7 +235,8 @@
 .pack .slickArea .slick-initialized .slick-slide .myBox .allInTxt span.pTxt .tite {
     display: block;
     font-size: 1.6em;
-    font-family: 'simpler-bold';
+    font-family: 'simpler-bold',
+        sans-serif;
 }
 
 .pack .slickArea .slick-initialized .slick-slide .myBox .allInTxt span.pTxt span.txt {
@@ -376,7 +378,8 @@
 
 /* Icons */
 @font-face {
-    font-family: 'slick';
+    font-family: 'slick',
+        sans-serif;
     font-weight: normal;
     font-style: normal;
 
@@ -431,7 +434,8 @@
 
 .slick-prev:before,
 .slick-next:before {
-    font-family: 'slick';
+    font-family: 'slick',
+        sans-serif;
     font-size: 20px;
     line-height: 1;
 
@@ -537,7 +541,8 @@
 }
 
 .slick-dots li button:before {
-    font-family: 'slick';
+    font-family: 'slick',
+        sans-serif;
     font-size: 6px;
     line-height: 20px;
 

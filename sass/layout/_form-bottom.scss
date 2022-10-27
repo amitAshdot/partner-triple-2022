@@ -17,7 +17,7 @@
         width: 40%;
 
         &-headline {
-            font-family: 'simpler-black';
+            font-family: 'simpler-black', sans-serif;
             color: #000000;
             font-size: 1.8rem;
             text-align: right;
@@ -32,7 +32,7 @@
         .accept {
             display: block;
             font-size: 0.65em;
-            font-family: 'simpler-regular';
+            font-family: 'simpler-regular', sans-serif;
         }
     }
 
@@ -45,7 +45,7 @@
         /* border: 1px solid; */
         box-sizing: border-box;
         margin: 0.4em 0 0 0;
-        font-family: 'simpler-regular';
+        font-family: 'simpler-regular', sans-serif;
         background: transparent;
         border: 1px solid #000000;
 

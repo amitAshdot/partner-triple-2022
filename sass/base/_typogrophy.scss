@@ -1,6 +1,7 @@
 @font-face {
   font-family: "simpler";
   src: url("../fonts/simpler-regular-webfont.woff");
+
   // src: url('../fonts/simpler-regular-webfont.ttf');
 }
 
@@ -39,7 +40,8 @@ body {
   display: inline-block;
   line-height: 100%;
   letter-spacing: -0.05em;
-  font-family: "simpler-black";
+  font-family: "simpler-black",
+    sans-serif;
   color: $color-primary;
   text-align: right;
 
@@ -57,7 +59,8 @@ sub {
   line-height: 100%;
   vertical-align: top;
   letter-spacing: initial;
-  font-family: "simpler";
+  font-family: "simpler",
+    sans-serif;
 
   @include respond(tab-port) {
     font-size: 0.25em;
@@ -69,11 +72,13 @@ sub {
   line-height: 100%;
   display: inline-block;
   letter-spacing: initial;
-  font-family: "simpler";
+  font-family: "simpler",
+    sans-serif;
 }
 
 .bold {
-  font-family: "simpler-bold";
+  font-family: "simpler-bold",
+    sans-serif;
 }
 
 span.red-text-dark.bold {

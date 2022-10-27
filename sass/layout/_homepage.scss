@@ -98,7 +98,7 @@
     font-size: 2.8rem;
     line-height: 100%;
     text-align: center;
-    font-family: 'simpler-black';
+    font-family: 'simpler-black', sans-serif;
     border: 0px solid green;
 
 
@@ -152,7 +152,7 @@
       font-size: 2.1rem;
       line-height: 100%;
       /* margin: 0 0 0 0; */
-      font-family: 'simpler-bold';
+      font-family: 'simpler-bold', sans-serif;
       border: 0px solid green;
 
       @include respond(tab-port) {
