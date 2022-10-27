@@ -244,7 +244,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    vertical-align: baseline;
     overflow: visible;
     position: relative;
     width: 100%;
@@ -254,7 +253,7 @@
     box-sizing: border-box;
     border: 0px solid green;
 
-    @inlude respond(tab-port) {
+    @include respond(tab-port) {
       margin: -4% 0 0 0;
       border-radius: 20px 20px 0 0;
     }
