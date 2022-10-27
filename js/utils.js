@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     dots: false,
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '0',
+                    centerPadding: '40px',
                     autoplay: false,
                     slidesToShow: 2,
                     initialSlide: 2,
