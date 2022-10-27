@@ -1,23 +1,26 @@
 @font-face {
   font-family: "simpler";
   src: url("../fonts/simpler-regular-webfont.woff");
-
+  font-display: swap;
   // src: url('../fonts/simpler-regular-webfont.ttf');
 }
 
 @font-face {
   font-family: "simpler-bold";
   src: url("../fonts/Simpler-Bold.woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "simpler-light";
   src: url("../fonts/Simpler-Light.woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "simpler-black";
   src: url("../fonts/Simpler-Black.woff");
+  font-display: swap;
 }
 
 body {
