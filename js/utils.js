@@ -288,7 +288,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
 
-    document.addEventListener('touchstart', onTouchStart, { passive: true });
+    // document.addEventListener('touchstart', onTouchStart, { passive: true });
 
+
+
+    var myVar = setInterval(function () {
+        console.log("loading")
+        let imageToLoad = document.getElementById("wait")
+        if (imageToLoad.complete) { // checks if image is loaded
+            imageToLoad.classList.add("loaded");
+            clearInterval(myVar);
+        }
+    }, 500);
 });
 
