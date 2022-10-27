@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             var data = serialize(form);
             e.preventDefault();
             // var data = $(this).serialize();
-            console.log(data)
+            // console.log(data)
             $.ajax({
                 type: "GET",
                 url: 'https://syatacrm.co.il/API9/mgrqispi94.dll?appname=Syata&prgname=Get_Leads_receiving_web&WD=Sderot&projectId=SD&key=googleisp1lead',
@@ -293,7 +293,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
     var myVar = setInterval(function () {
-        console.log("loading")
         let imageToLoad = document.getElementById("wait")
         if (imageToLoad.complete) { // checks if image is loaded
             imageToLoad.classList.add("loaded");
