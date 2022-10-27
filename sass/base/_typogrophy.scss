@@ -106,22 +106,26 @@ span.red-text-dark.bold {
 
 /* unvisited link */
 a:link {
-  color: $color-black;
+  color: $color-white;
+  // color: $color-black;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: $color-black;
+  color: $color-white;
+  // color: $color-black;
 }
 
 /* mouse over link */
 a:hover {
-  color: $color-black;
+  // color: $color-black;
+  color: $color-white;
   cursor: pointer;
 }
 
 /* selected link */
 a:active {
-  color: $color-black;
+  // color: $color-black;
+  color: $color-white;
 }

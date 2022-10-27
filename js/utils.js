@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     if (isServiceOpen()) {
         if (isMobile()) { cta[0].style.display = "block"; }
-        timerPlus("5fad386cfad89e001730c668");
+        timerPlus("5e2efacb8f7cea00173c2a95");
     }
     else
         cta[0].style.display = "none";
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             // console.log(data)
             $.ajax({
                 type: "GET",
-                url: 'https://syatacrm.co.il/API9/mgrqispi94.dll?appname=Syata&prgname=Get_Leads_receiving_web&WD=Sderot&projectId=SD&key=googleisp1lead',
+                url: 'https://syatacrm.co.il/API9/mgrqispi94.dll?appname=Syata&prgname=Get_Leads_receiving_web&WD=Sderot&projectId=SD&key=googletv1lead',
                 data: data,
             });
 
@@ -192,6 +192,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     window.location.href = 'thankyou.html';
                 }
             });
+
+            $.ajax({
+                type: "POST",
+                url: 'https://www.targetcall.tempurl.co.il/mailphp/partner-tv.co-free-tv-screen/mail.php',
+                data: data,
+                success: function (mail) {
+                    window.location.href = 'https://partner-tv.co/thankyoupage/';
+                }
+            });
+
             return true
 
         } else {

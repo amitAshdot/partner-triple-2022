@@ -464,7 +464,7 @@
   background: $color-yellow;
   padding: 2rem;
   z-index: 5;
-  color: #000000;
+  color: $color-black !important;
 
   @include respond(tab-port) {
     font-size: 2rem;
@@ -474,7 +474,7 @@
 
   &a:link,
   &a:visited {
-    color: $color-black;
+    color: $color-black !important;
     text-decoration: none;
     cursor: pointer;
     // padding: 2% 50%;
@@ -489,7 +489,7 @@
   &a:hover,
   &a:active,
   &a:focus {
-    color: $color-black;
+    color: $color-black !important;
   }
 
   .underline {
