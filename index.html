@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <script src="https://partnertv-sales.co.il/infinity/jquery-3.5.1.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="shortcut icon" href="./images/favicon.ico" />
+  <meta charset="UTF-8" />
+  <title>
+    טריפל פרטנר: חבילות טריפל במחיר מנצח Partner
+  </title>
+  <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+  <meta name="description"
+    content="חבילות טריפל של פרטנר: טריפל פרטנר עם חווית הצפייה של Partner TV, אינטרנט חזק וקו טלפון ביתי במחיר מנצח. למגוון מסלולי הטריפל שלנו היכנסו לאתר" />
+  <meta property="og:title" content="טריפל פרטנר: חבילות טריפל במחיר מנצח  Partner" />
+  <meta property="og:description"
+    content="חבילות טריפל של פרטנר: טריפל פרטנר עם חווית הצפייה של Partner TV, אינטרנט חזק וקו טלפון ביתי במחיר מנצח. למגוון מסלולי הטריפל שלנו היכנסו לאתר" />
+  <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no" />
+  <meta name="theme-color" content="#2cd5c4">
+
+
+  <!-- <meta http-equiv="Access-Control-Allow-Origin" content="*" /> -->
+  <link rel="stylesheet" type="text/css" href="./css/index.css" media="screen" />
+  <!-- <script id="ptoken"  src="https://ws.callindex.co.il/campaign/send_analytics.js?ptoken=2009"
+    ></script> -->
+
+  <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer type="text/javascript" src="https://onandoff.co.il/onAndOff.js"></script>
+  <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
+
+</head>
+
+<body>
+  <header class="header"></header>
+  <main>
+    <!-- MAIN HEADER START -->
+
+    <section class="header" id="top-section">
+      <img src="./images/bgheaderweb.jpg" alt="" title="" class="bgMainWDesktop u-desktop">
+      <img src="./images/bgHeaderMob.jpg" alt="" title="" class="bgMainMob u-mobile">
+      <img src="./images/statJordi.png" alt="חבילות הטריפל של פרטנר" title="" class="statJordi wow fadeInLeft"
+        style="visibility: visible; animation-name: fadeInLeft;">
+
+      <div class="data">
+        <h1><img src="./images/logos.png" alt="פרטנר triple" title="פרטנר triple ב-99ש״ח בלבד"></h1>
+
+        <img src="./images/price.jpg" alt="טריפל פרטנר TV עם נטפליקס כלול בתשתית סיבים" title=""
+          class="price u-desktop">
+      </div>
+    </section>
+    <!-- MAIN HEADER END -->
+
+
+    <!-- MAIN FORM START-->
+    <section class="form-section">
+      <img src="./images/sticksLeft.png" alt="" title="" class="sticksLeft">
+      <img src="./images/popcorn.png" alt="" title="" class="popcorn">
+      <img src="./images/sticks.png" alt="" title="" class="sticks">
+      <img src="./images/FormStatic.png" alt="סטטיק – קמפיין טריפל פרטנר TV" title="" class="FormStatic u-desktop">
+      <img src="./images/FormJordi.png" alt="ג'ורדי – קמפיין טריפל פרטנר TV" title="" class="FormJordi u-desktop">
+      <img src="./images/FormJordiHand.png" alt="" title="" class="FormJordiHand u-desktop">
+      <img src="./images/priceMob.jpg" alt="" title="" class="priceMob u-mobile">
+      <form class="form" id="top" action="post" method="post" accept-charset="utf-8">
+        <input type="hidden" id="utm_term" name="term" value="">
+        <input type="hidden" id="campaignID" name="campaignID" value="">
+        <input type="hidden" id="utm_campaign" name="campaign" value="">
+        <!-- nested -->
+
+        <h2 class="checkSiv">להצטרפות ולבדיקה האם הגענו אליך עם הסיב שלנו</h2>
+        <p class="return bold"> מלאו את הפרטים ומבטיחים שנחזור </p>
+        <p class="accept">*מילוי פרטיך מהווה הסכמה לנציג פרטנר ליצור קשר טלפוני</p>
+        <p id="message" class="form-message error"></p>
+        <p class="phone cta"><a href="tel:074-7691036">לשיחה עם נציג מכירות חייגו
+            <span class="underline">074-7691036</span>
+          </a>
+        </p>
+
+        <p id="message" class="form-message error"></p>
+
+        <select name="input_10" id="input_10">
+          <option value="" selected="selected" class="gf_placeholder">בחר ספק נוכחי</option>
+          <option value="current"> פרטנר</option>
+          <option value="יס">YES</option>
+          <option value="סלקום">סלקום</option>
+          <option value="הוט">הוט</option>
+          <option value="ללא"> אחר / ללא</option>
+        </select>
+        <div class="divhidden" style="display: none;">
+          <div style="padding:10px;text-align: center;">
+            <a style="color: black;text-decoration: none;font-size: 28px;line-height: 31px;"
+              href="https://www.partner.co.il/n/tv/home"> <b>לקוחות קיימים בפרטנר – למידע לחצו כאן </b></a>
+          </div>
+        </div>
+
+        <input name="firstName" id="firstName" type="text" placeholder="שם מלא" class="form-input">
+        <input name="Phone_1" id="Phone_1" type="tel" placeholder="טלפון" class="form-input">
+        <!--<input name="email" id="email" type="email" placeholder="דואל" class="form-input">-->
+
+        <div class="form__bottom">
+          <span class="contactUs">אפשר גם להתקשר אלינו <a href="tel:*2300">2300*</a></span>
+
+          <div class="form__bottom-submit">
+            <input class="bold" type="submit" value="שלח">
+          </div>
+        </div>
+        <!-- SUCCESS -->
+        <div class="success" id="Afiberssuccess-Lead" style="display: none;">
+          <img src="./images/heart_icon_fiber.png" alt="">
+          <p class="success-message">קיבלנו.</p>
+          <span>נציג איזור המגורים שלך יחזור אליך ממש בקרוב.</span>
+          <a href="javascript:void(0);" ng-click="refresh()" class="link">לבדיקת כתובת אחרת ›</a>
+        </div>
+        <!-- ERROR -->
+        <div class="error-message" id="Afiberserror-Lead" style=" display: none; ">
+          <img src="./images/error-icon.png" alt="">
+          <p>אירעה שגיאה במהלך שליחת הנתונים</p>
+          <span>תוכל לפנות לנציג מכירות בטלפון <a href="tel:074-7691036">074-7691036</a></span>
+        </div>
+      </form>
+    </section>
+    <!-- MAIN FORM END-->
+
+    <!-- CAROUSEL START-->
+    <section class="carousel">
+
+      <h2>מה כוללת חבילת הטריפל</h2>
+      <div class="slick-container">
+        <div class="slickArea">
+          <div class="slickBox">
+            <div class="myBox">
+              <img src="./images/ico_1.png" alt="טריפל פרטנר TV" title="" class="ico">
+              <div class="line"></div>
+              <div class="text">
+                <h3 class="text-title bold">TV פרטנר</h3>
+                <span class="tex-text">טלוויזיה מתקדמת עם מגוון תכנים מובילים סדרות, סרטים ותכנים לילדים</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="slickBox">
+            <div class="myBox">
+              <img src="./images/ico_2.png" alt="חבילות טריפל של פרטנר TV עם נטפליקס כלול" title="" class="ico">
+              <div class="line"></div>
+              <div class="text">
+                <h3 class="text-title bold">כולל Netflix</h3>
+                <span class="text-text">שירות<br>,Netflix "Standard" שירות התוכן המוביל בעולם</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="slickBox">
+            <div class="myBox">
+              <img src="./images/ico_3.png" alt="חבילות טריפל של פרטנר עם אינטרנט סיבים עוצמתי" title="" class="ico">
+              <div class="line"></div>
+              <div class="text">
+                <h3 class="text-title bold">Partner Fiber</h3>
+                <span class="text-text">חבילת האינטרנט בתשתית סיבים של פרטנר במהירות עד 300Mb</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- CAROUSEL END-->
+
+    <!--BOTTOM FORM START-->
+    <!-- <section class="formBottom-section">
+      <form class="formBottom" id="bottom" action="post" method="post" accept-charset="utf-8">
+        <input type="hidden" id="utm_term" name="term" value="">
+        <input type="hidden" id="campaignID" name="campaignID" value="">
+        <input type="hidden" id="utm_campaign" name="campaign" value=""> -->
+    <!-- nested -->
+    <!-- <div class="formBottom-text">
+          <h2 class="formBottom-text-headline">להצטרפות לטריפל של Partner ולפרטים נוספים</h2>
+          <p class="accept">*מילוי פרטיך מהווה הסכמה לנציג פרטנר ליצור קשר טלפוני</p>
+        </div>
+        <p id="message" class="form-message error"></p>
+
+        <select name="input_10" id="input_10">
+          <option value="" selected="selected" class="gf_placeholder">בחר ספק נוכחי</option>
+          <option value="current"> פרטנר</option>
+          <option value="יס">YES</option>
+          <option value="סלקום">סלקום</option>
+          <option value="הוט">הוט</option>
+          <option value="ללא"> אחר / ללא</option>
+        </select>
+        <div class="divhidden" style="display: none;">
+          <div style="padding:10px;text-align: center;">
+            <a style="color: black;text-decoration: none;font-size: 28px;line-height: 31px;"
+              href="https://www.partner.co.il/n/tv/home"> <b>לקוחות קיימים בפרטנר – למידע לחצו כאן </b></a>
+          </div>
+        </div>
+
+        <input name="firstName" id="firstName" type="text" placeholder="שם מלא" class="form-input">
+        <input name="Phone_1" id="Phone_1" type="tel" placeholder="טלפון" class="form-input">
+        <input name="email" id="email" type="email" placeholder="דואל" class="form-input">
+
+    <input class="bold" type="submit" value="שלח">
+    </form> -->
+
+    <!------------------>
+
+    <!-- <div id="MekademonWardsuccess-Lead" class="success" style="display: none;">
+        <img src="./images/heart_icon.png" alt="">
+        <h2>פרטיך נשלחו בהצלחה!</h2>
+        <span>נציגנו יצור עימך קשר תוך שני ימי עסקים.</span>
+      </div>
+
+      <div id="MekademonWarderror-Lead" class="error-message" style="display: none;">
+        <img src="./images/error-icon.png" alt="">
+        <h2>אירעה שגיאה במהלך שליחת הנתונים</h2>
+        <span>תוכל לפנות לנציג מכירות בטלפון <a href="tel:074-7691036">074-7691036</a></span>
+      </div> -->
+
+    <!-- </section> -->
+    <!--BOTTOM FORM END-->
+
+
+    <!-- MISHPATI START-->
+    <section class="conditions">
+      <!--<p class="mishTite"></p>-->
+      <ul class="mishpati">
+        <li>החל מהחודש השלישי מ-195 ₪ לחודש.</li>
+        <li>להצטרפות עד 15/11/2022.</li>
+        <li>בכפוף לתנאי החבילה המלאים ולתנאי ההתקשרות הכללים לשירותים המסופקים, הניתנים לעיון באתר פרטנר, ובקיומו של
+          ציוד
+          תומך ותשתית תומכת.</li>
+        <li>שירות "Netflix standard" בשווי 54.9 ₪, בכפוף לתנאיה המלאים של נטפליקס <a
+            href="https://www.netflix.com">www.netflix.com</a>.</li>
+        <li>ממיר ראשון בחבילה ללא תוספת תשלום. תוספת תשלום עבור כל ממיר נוסף (סה"כ עד 5) 15 ₪ לחודש.</li>
+        <li>המחיר מתייחס למהירות הורדה והעלאה מקסימלית של עד 300Mb/30Mb.</li>
+        <li>שירות Partner ניתן בישראל בלבד.</li>
+        <li>צפייה באיכות 4K תתאפשר רק באמצעות מסכים תומכים וכפופה למגבלות טכנולוגיות, תכנים ואפליקציות צד ג׳ עשויים
+          להיות
+          כרוכים בתשלום נוסף.</li>
+        <li>שירות הטלוויזיה מאפשר שימוש בעד 5 אמצעי צפייה ללקוח (ממיר, שימוש באפליקציה למכשיר נייד).</li>
+        <li>שירות הטלוויזיה מחייב תשתית אינטרנט במהירות Mb10 לפחות לכל ממיר וכניסת HDMI בכל טלוויזיה בה יותקן השירות.
+        </li>
+        <li>שירות ספק תשתית אינטרנט, בכפוף להתכנות תשתית סיבים אופטיים של פרטנר בכתובת הלקוח ובקיומו של ציוד תומך.
+          בכפוף
+          לתנאי ההתקשרות הכלליים לשירותי האינטרנט ו/או טלפוניה (פנים ארצית) ו/או לחיוג לחו"ל ולתנאי החבילה המלאים.
+        </li>
+        <li>תכניות השירות אליהן ניתן להצטרף מותנות בין היתר, בהתכנות הטכנית בנקודת אספקת השירות, במסגרת אספקת שירות
+          תשתית
+          הסיבים, הסיבים האופטיים עשויים להגיע עד בית הלקוח או עד הבניין בלבד בו ממוקמת דירת הלקוח.</li>
+        <li>בתשתית סיבים: מהירות העלאה והורדה מקסימלית: 300Mb/30Mb ,600Mb/60Mb ,1000Mb/100Mb מהירות הורדה והעלאה
+          מזעריים
+          של 0.01Mb.</li>
+        <li>החבילות אינן כוללות נתב - נדרש נתב תומך. מחיר בהשכרה: 25 ₪ לחודש.</li>
+        <li>טלפון ביתי הכולל 30 דקות שיחה יוצאות בישראל. תעריף דקה מעבר לכלול בחבילה 0.18 אג'.</li>
+        <li>שירות ספק תשתית אינטרנט מסופק על ידי פרטנר פתרונות תקשורת נייחים - שותפות מוגבלת.</li>
+        <li>פרטנר רשאית לשנות את תנאי ותעריפי החבילות או לבטלן בכל עת.</li>
+        <li>פרטנר תקשורת בע"מ ח.צ. 520044314</li>
+      </ul>
+    </section>
+    <!-- MISHPATI END-->
+
+    <!-- CTA START -->
+    <!-- <div class="cta-form">
+      <a href="#mobForm" class="stripFom u-mobile" id="stripFom"
+        onclick="smoothScroll(document.getElementById('mobForm'))">להצטרפות</a>
+    </div> -->
+    <!-- <div class="cta-form" id="stripForm-container" style="display: block;"> -->
+    <a href="#top" class="stripFom cta-form" id="stripForm">להצטרפות</a>
+    <!-- </div> -->
+
+    <div class="callPhone-fixed u-mobile " style="display: block;">
+      <a href="tel:074-7691036" class="callPhone mobile" id="callpopuplink">
+        <div class="callPhone-icon">
+          <img class="callPhone-img" src="./images/phoneIcon.webp" alt="כפתור חיוג לנציג" title="כפתור חיוג לנציג">
+        </div>
+        <p>
+          חייג לנציג
+        </p>
+      </a>
+    </div>
+    <!-- CTA END -->
+  </main>
+
+  <footer class="footer">
+    <div class="footer-contact"></div>
+  </footer>
+
+
+  <!-- URL PARAMS HANDLE
+  <script>
+    //get url params
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const locationNum = urlParams.get("locationNum");
+    const site = urlParams.get("site");
+    const from = urlParams.get("from");
+    const search = urlParams.get("utm_campaign");
+    const keyword = urlParams.get("keyword");
+    const dynamic3 = urlParams.get("utm_term");
+
+
+
+    let inputLocation = document.getElementsByClassName("systemfield12");
+    let inputSite = document.getElementsByClassName("systemfield52");
+    let inputFrom = document.getElementsByClassName("originatingleadcode");
+    let inputSearchOrGdn = document.getElementsByClassName("utm_campaign");
+    let inputKeyWord = document.getElementsByClassName("keyword");
+    let inputDynamic3 = document.getElementsByClassName("dynamic_3");
+
+
+    let locationArray = [...inputLocation];
+    let siteArray = [...inputSite];
+    let fromArray = [...inputFrom];
+    let searchOrGdnArray = [...inputSearchOrGdn];
+    let keyWordArray = [...inputKeyWord];
+    let inputDynamic3Array = [...inputDynamic3];
+
+
+    locationArray.map(item => (item.value = locationNum));
+    siteArray.map(item => (item.value = site));
+    fromArray.map(item => (item.value = from));
+    searchOrGdnArray.map(item => (item.value = search));
+    keyWordArray.map(item => (item.value = keyword));
+    inputDynamic3Array.map(item => (item.value = dynamic3));
+
+  </script> -->
+
+  <!-- <script>
+    $("#myForm_top").submit(function (e) {
+      e.preventDefault();
+      var data = $(this).serialize();
+      $.ajax({
+        type: "POST",
+        url: "mail.php",
+        data: data,
+        success: function (mail) {
+          window.location.href =
+            "https://partnertv-sales.co.il/thankyoupage/";
+        }
+      });
+    });
+    $("#myForm_top").submit(function (e) {
+      e.preventDefault();
+      var data = $(this).serialize();
+      $.ajax({
+        type: "GET",
+        url:
+          "https://syatacrm.co.il/API9/mgrqispi94.dll?appname=Syata&prgname=Get_Leads_receiving_web&WD=Sderot&projectId=SD&key=googleTV2lead",
+        data: data
+      });
+    });
+
+  </script> -->
+
+  <!-- HANDLE PROTOCOL TO HTTPS -->
+  <script>
+    // if (location.protocol !== "https:") {
+    //   location.replace(
+    //     `https:${location.href.substring(location.protocol.length)}`
+    //   );
+    // }
+    // if (location.protocol !== "https:") {
+    //   location.replace(window.location.href.replace("http:", "https:"));
+    // }
+  </script>
+
+  <script defer type="text/javascript" src="./js/utils.js"></script>
+  <script defer type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      // $(".slider").not('.slick-initialized').slick()
+
+      // $('.slickArea').slick({
+      //   //rtl: true,
+      //   arrows: false,
+      //   slidesToShow: 3,
+      //   slidesToScroll: 1,
+      //   dots: false,
+      //   // nextArrow: '<span class="arrowSide arrR"></span>',
+      //   // prevArrow: '<span class="arrowSide arrL"></span>',
+      //   focusOnSelect: true,
+      //   autoplay: false,
+      //   rtl: true,
+      //   responsive: [
+      //     {
+      //       breakpoint: 1024,
+      //       settings: {
+      //         dots: false,
+      //         arrows: false,
+      //         centerMode: true,
+      //         centerPadding: '40px',
+      //         autoplay: false,
+      //         slidesToShow: 2
+      //       }
+      //     }
+      //   ]
+      // });
+    });
+  </script>
+</body>
+
+</html>

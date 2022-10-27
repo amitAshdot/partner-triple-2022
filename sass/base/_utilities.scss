@@ -1,0 +1,63 @@
+.u-desktop {
+  display: block;
+  @include respond(tab-port) {
+    display: none !important;
+  }
+}
+.u-mobile {
+  display: none;
+  @include respond(tab-port) {
+    display: block;
+  }
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-botton-small {
+  margin-bottom: 2rem !important;
+}
+
+.u-margin-botton-medium {
+  margin-bottom: 4rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+.u-margin-botton-big {
+  margin-bottom: 8rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem !important;
+  }
+}
+
+.u-margin-top-medium {
+  width: 100%;
+  margin: 0% 0 18% 0;
+  display: inline-block;
+
+  @include respond(tab-port) {
+    // margin: 15% 0 10% 0;
+    // margin: 7% 0 10% 0;
+  }
+}
+
+.u-margin-top-big {
+  margin-bottom: 8rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 4rem !important;
+  }
+}
+
+.u-margin-top-huge {
+  margin-bottom: 8rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 4rem !important;
+  }
+}

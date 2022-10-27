@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "simpler";
+  src: url(https://amitashdot.github.io/partner-amazon/fonts/Simpler-Regular.woff);
+}
+
+@font-face {
+  font-family: "simpler-bold";
+  src: url(https://amitashdot.github.io/partner-amazon/fonts/Simpler-Bold.woff);
+}
+
+@font-face {
+  font-family: "simpler-light";
+  src: url(https://amitashdot.github.io/partner-amazon/fonts/Simpler-Light.woff);
+}
+
+@font-face {
+  font-family: "simpler-black";
+  src: url(https://amitashdot.github.io/partner-amazon/fonts/Simpler-Black.woff);
+}
+
+body {
+  font-family: "simpler", cursive;
+  font-weight: 400;
+  font-size: $defaut-font-size;
+  line-height: 1.7;
+}
+
+.white-text {
+  color: $color-white-real;
+}
+
+.blue-text {
+  color: $color-primary;
+}
+
+.huge {
+  font-size: 10vw;
+  display: inline-block;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  font-family: "simpler-black";
+  color: $color-primary;
+  text-align: right;
+
+  @include respond(tab-land) {
+    font-size: 8vw;
+  }
+
+  @include respond(tab-port) {
+    font-size: 16.2em;
+  }
+}
+
+sub {
+  font-size: 2vw;
+  line-height: 100%;
+  vertical-align: top;
+  letter-spacing: initial;
+  font-family: "simpler";
+
+  @include respond(tab-port) {
+    font-size: 0.25em;
+  }
+}
+
+.month {
+  font-size: 0.25em;
+  line-height: 100%;
+  display: inline-block;
+  letter-spacing: initial;
+  font-family: "simpler";
+}
+
+.bold {
+  font-family: "simpler-bold";
+}
+
+span.red-text-dark.bold {
+  margin-left: 1rem;
+}
+
+.full {
+  color: #fff;
+  display: inline-block;
+  padding: 5px 1.25rem;
+  border-radius: 10px;
+  background-color: $color-blue;
+  overflow: hidden;
+}
+
+.earase {
+  -webkit-text-decoration-line: line-through;
+  /* Safari */
+  text-decoration-line: line-through;
+  text-decoration-thickness: 1px;
+}
+
+/* unvisited link */
+a:link {
+  color: $color-black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: $color-black;
+}
+
+/* mouse over link */
+a:hover {
+  color: $color-black;
+  cursor: pointer;
+}
+
+/* selected link */
+a:active {
+  color: $color-black;
+}

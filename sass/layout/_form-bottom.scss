@@ -1,0 +1,56 @@
+.formBottom {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 13rem;
+
+    &-section {
+        background: #e5e5e5;
+        overflow: visible;
+        border: 0px solid green;
+    }
+
+
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+
+        &-headline {
+            font-family: 'simpler-black';
+            color: #000000;
+            font-size: 1.8rem;
+            text-align: right;
+            padding: 0 0 1% 0;
+            display: inline-block;
+            // width: 37% !important;
+            line-height: 100%;
+            box-sizing: border-box;
+            border: 0px solid green;
+        }
+
+        .accept {
+            display: block;
+            font-size: 0.65em;
+            font-family: 'simpler-regular';
+        }
+    }
+
+    input,
+    select {
+        width: 17%;
+        color: #000000;
+        font-size: 0.7em;
+        padding: 0.4em 0.2em 0.4em 0.2em;
+        /* border: 1px solid; */
+        box-sizing: border-box;
+        margin: 0.4em 0 0 0;
+        font-family: 'simpler-regular';
+        background: transparent;
+        border: 1px solid #000000;
+
+        &::placeholder {
+            color: $color-black;
+        }
+    }
+}
