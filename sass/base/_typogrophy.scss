@@ -1,21 +1,22 @@
 @font-face {
   font-family: "simpler";
-  src: url(https://amitashdot.github.io/partner-amazon/fonts/Simpler-Regular.woff);
+  src: url("../fonts/simpler-regular-webfont.woff");
+  // src: url('../fonts/simpler-regular-webfont.ttf');
 }
 
 @font-face {
   font-family: "simpler-bold";
-  src: url(https://amitashdot.github.io/partner-amazon/fonts/Simpler-Bold.woff);
+  src: url("../fonts/Simpler-Bold.woff");
 }
 
 @font-face {
   font-family: "simpler-light";
-  src: url(https://amitashdot.github.io/partner-amazon/fonts/Simpler-Light.woff);
+  src: url("../fonts/Simpler-Light.woff");
 }
 
 @font-face {
   font-family: "simpler-black";
-  src: url(https://amitashdot.github.io/partner-amazon/fonts/Simpler-Black.woff);
+  src: url("../fonts/Simpler-Black.woff");
 }
 
 body {
