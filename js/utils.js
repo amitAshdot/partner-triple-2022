@@ -268,16 +268,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
         focusOnSelect: true,
         autoplay: false,
         rtl: true,
+
         responsive: [
             {
                 breakpoint: 1024,
+                centerMode: true,
+
                 settings: {
                     dots: false,
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
+                    centerPadding: '0',
                     autoplay: false,
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    initialSlide: 2,
                 }
             }
         ]
