@@ -453,7 +453,7 @@
 .cta-form {
   display: none;
   font-family: 'simpler-bold', sans-serif;
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 100%;
   width: 100%;
   text-align: center;
@@ -466,7 +466,7 @@
   z-index: 5;
   color: #000000;
 
-  @include respond(mini-desktop) {
+  @include respond(tab-port) {
     font-size: 2rem;
     width: 100%;
     text-align: center;
@@ -479,7 +479,7 @@
     cursor: pointer;
     // padding: 2% 50%;
 
-    @include respond(mini-desktop) {
+    @include respond(tab-port) {
       font-size: 2rem;
       width: 100%;
       text-align: center;

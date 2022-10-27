@@ -23,6 +23,7 @@ ul.mishpati {
 
         &:before {
             content: "•";
+            overflow: hidden;
             color: $color-black;
             position: absolute;
             top: -0.32em;
