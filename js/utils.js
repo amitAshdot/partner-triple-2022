@@ -282,5 +282,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
         ]
     });
+
+
+    document.addEventListener('touchstart', onTouchStart, { passive: true });
+
 });
 
