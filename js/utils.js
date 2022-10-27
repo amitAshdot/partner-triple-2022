@@ -285,10 +285,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 centerMode: true,
 
                 settings: {
+                    touchThreshold: 100,
                     dots: false,
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '40px',
+                    // centerPadding: '40px',
                     autoplay: false,
                     slidesToShow: 2,
                     initialSlide: 2,

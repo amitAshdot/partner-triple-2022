@@ -52,6 +52,10 @@
         }
     }
 
+    @include respond(tab-port) {
+        width: 95%;
+    }
+
     img {
         width: 8rem;
         margin: 0 auto;
@@ -67,6 +71,10 @@
         margin: 1.6rem auto 1.6rem auto;
         border: 0px solid green;
         overflow: visible;
+
+        @include respond(tab-port) {
+            background: transparent;
+        }
 
         &:before {
             content: "";
@@ -100,9 +108,22 @@
         text-align: center;
         padding: 0 3rem;
 
-        &-title {}
+        @include respond(tab-port) {
+            padding: 0 6rem;
+        }
 
-        &-text {}
+        &-title {
+
+            @include respond(tab-port) {
+                font-size: 3rem;
+            }
+        }
+
+        &-text {
+            @include respond(tab-port) {
+                font-size: 2rem;
+            }
+        }
     }
 }
 
