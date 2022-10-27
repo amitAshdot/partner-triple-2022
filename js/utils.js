@@ -300,5 +300,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             clearInterval(myVar);
         }
     }, 500);
+
 });
 
